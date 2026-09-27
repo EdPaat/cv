@@ -19,7 +19,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Mijn cv</title>
-   <link rel="stylesheet" href="https://cloudflare.com">
+       <!-- Handmatige Tailwind & Config setup (Herstelt de lay-out direct) -->
+    <script src="https://tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        corePlugins: {
+          preflight: true,
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
